@@ -17,8 +17,10 @@ This project leverages **NLP, LLM models, and text mining** to efficiently searc
 - **Hugging Face Token**: Needed for NLP model authentication (store in Colab secrets)
 
 ## Steps to Run
-1️⃣ Enter **TAIR IDs or Gene Symbols** when prompted (/*supports expansion to all organisms*)
+1️⃣ Enter **TAIR IDs or Gene Symbols** when prompted (*supports expansion to all organisms*)
+
 2️⃣ Enter the **number of articles** to retrieve per search
+
 3️⃣ The script will process **original and expanded queries** to retrieve PubMed articles
 
 
@@ -37,10 +39,12 @@ This project leverages **NLP, LLM models, and text mining** to efficiently searc
    ```bash
    git clone https://github.com/sivkri/NLP-LLM-TextMining_GeneSearch.git
    cd NLP-LLM-TextMining_GeneSearch
+   ```
 
 2️⃣ **Run in Google Colab**
+
 Simply upload and execute the provided Colab Notebook
-/*NLP-LLM-TextMining_GeneSearch.ipynb*/
+```NLP-LLM-TextMining_GeneSearch.ipynb ```
 
 ##💡**Example Output**
  ```bash
@@ -50,3 +54,4 @@ Enter the number of articles to retrieve per search (e.g., 5, 10, 15): 5
 ✅ Results for mapkkk18: 5 (original) | 5 (expanded)  
 ✅ Results for ABI1: 5 (original) | 5 (expanded)  
 ⚠️ 10 duplicate PubMed ID(s) removed.  
+```

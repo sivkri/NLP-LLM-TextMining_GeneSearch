@@ -38,6 +38,7 @@ Display results in a clickable table format
 
 Enter comma-separated TAIR IDs or gene symbols: AT4G26080, mapkkk18  
 Enter the number of articles to retrieve per search (e.g., 5, 10, 15): 5  
+ ```bash
 ✅ Results for AT4G26080: 0 (original) | 0 (expanded)  
 ✅ Results for mapkkk18: 5 (original) | 5 (expanded)  
 ✅ Results for ABI1: 5 (original) | 5 (expanded)  
